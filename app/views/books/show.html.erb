@@ -1,11 +1,11 @@
 <p>
   <strong>Title:</strong>
-  リーダブルコード
+  <%= @book.title %>
 </p>
 
 <p>
   <strong>Body:</strong>
-  より良いコードを書くためのシンプルで実践的なテクニック
+  <%= @book.body %>
 </p>
 
 <%= link_to "Edit", edit_book_path(@book) %>
